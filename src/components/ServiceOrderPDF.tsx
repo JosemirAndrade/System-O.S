@@ -254,7 +254,7 @@ export const ServiceOrderPDF = ({ serviceOrder }: ServiceOrderPDFProps) => {
 
         <View style={styles.warrantyBox}>
           <Text style={{ fontFamily: 'Helvetica' }}>
-            Garantia 90 dias a partir da data de entrega
+            Garantia 90 dias a partir da data de entrega 
             {serviceOrder.exitDate && (
               <Text>Válida até {getWarrantyDate()}</Text>
             )}
