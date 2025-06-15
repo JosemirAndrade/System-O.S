@@ -162,7 +162,10 @@ export const ServiceOrderPDF = ({ serviceOrder }: ServiceOrderPDFProps) => {
 
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Informações</Text>
-
+          <View style={styles.row}>
+            <Text style={styles.label}>Técnico Responsável:</Text>
+            <Text style={styles.value}>{serviceOrder.technician}</Text>
+          </View>
           <View style={styles.row}>
             <Text style={styles.label}>Cliente:</Text>
             <Text style={styles.value}>{serviceOrder.client}</Text>
@@ -203,10 +206,6 @@ export const ServiceOrderPDF = ({ serviceOrder }: ServiceOrderPDFProps) => {
           <View style={styles.row}>
             <Text style={styles.label}>Solução:</Text>
             <Text style={styles.value}>{serviceOrder.solution}</Text>
-          </View>
-          <View style={styles.row}>
-            <Text style={styles.label}>Técnico Responsável:</Text>
-            <Text style={styles.value}>{serviceOrder.technician}</Text>
           </View>
           {serviceOrder.observations && (
             <View style={styles.row}>
