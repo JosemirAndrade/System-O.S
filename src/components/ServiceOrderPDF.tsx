@@ -271,7 +271,7 @@ export const ServiceOrderPDF = ({ serviceOrder }: ServiceOrderPDFProps) => {
           </Text>
         </View>
         <View style={styles.warrantyBox}>
-          <Text style={{ fontFamily: 'Helvetica', textAlign: 'center' }}>Pagamentos via Pix, Copie e Cole a CHAVE ou scannei o QRCode.
+          <Text style={{ fontFamily: 'Helvetica', textAlign: 'center' }}>Pagamentos via Pix, Copie e Cole a CHAVE ou escaneie o QRCode.
           </Text>
           <Text style={{ fontFamily: 'Helvetica-Bold', textAlign: 'center' }}>d6765eff-2e0e-40c7-a965-2709ef20aca7
           </Text>
